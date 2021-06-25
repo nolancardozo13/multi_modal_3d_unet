@@ -1,6 +1,12 @@
 # Data files and directories common in repo root
 *.pth
-/data/*
+*.nii
+*.nii.gz
+
+!/data/imagesTr/BRATS_001.nii.gz
+!/data/labelsTr/BRATS_001.nii.gz
+!/data/imagesTs/BRATS_485.nii.gz
+
 # Jupyter Notebook
 */.ipynb_checkpoints
 .ipynb_checkpoints
